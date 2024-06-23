@@ -1,0 +1,64 @@
+.email
+{
+    padding: 10px;
+}
+.email:focus 
+{
+    outline: none !important;
+    box-shadow: rgb(96 108 233) 0px 6px 12px -2px, rgb(137 145 231 / 0%) 0px 3px 7px -3px !important;
+}
+.password
+{
+    padding: 10px;
+}
+.password:focus
+{
+    outline: none !important;
+    box-shadow: rgb(96 108 233) 0px 6px 12px -2px, rgb(137 145 231 / 0%) 0px 3px 7px -3px !important;
+    
+}
+.sigin_button
+{
+    background-color : #20bf55;
+   background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+
+}
+/* Login.css */
+
+/* Glassmorphism Effect */
+.glass {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Neumorphism Effect */
+.neumorphism {
+  background: #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.neumorphism-input {
+  background: #e0e0e0;
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+}
+
+.neumorphism-button {
+  background: #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+}
+
+.neumorphism-button:hover {
+  background: #d1d1d1;
+}
+
+.email:focus, .password:focus {
+  border: none !important;
+  box-shadow: rgb(96, 108, 233) 0px 6px 12px -2px, rgb(137, 145, 231 / 0%) 0px 3px 7px -3px !important;
+}

@@ -6,7 +6,6 @@ import axios from 'axios';
 import Home from './Components/Home';
 import Login from './Components/Login';
 import Signup from './Components/Signup';
-import AdminLogin from './Components/AdminLogin';
 
 const App = () => {
   const dispatch = useDispatch();
@@ -37,7 +36,6 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/admin-login" element={<AdminLogin />} />
       </Routes>
     </Router>
   );
